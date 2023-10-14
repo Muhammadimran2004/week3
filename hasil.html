@@ -1,27 +1,96 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>Data Sensus Penduduk</title>
-    </head>
-    <body>
-       <h2 style="text-align: center;">Data Sensus Penduduk</h2>
-        <table border="1" align="center" cellpadding="11">
-            <tr bgcolor="orange">
-                <th>No</th>
-                <th>Nama</th>
-                <th>Agama</th>
-                <th>Jenis Kelamin</th>
-                <th>Foto</th>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Penjualan</title>
+    <link rel="icon" type="image/x-icon" href="image.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .result-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        strong {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="result-container">
+        <img src="image.png" alt="Logo">
+        <h1>Terima Kasih atas Pesanan Anda</h1>
+        <p>Terima kasih telah memesan pizza dari Black Goose Bistro | Pizza-on-Demand.</p>
+        <p>Pesanan Anda akan segera diproses dan akan diantar ke alamat berikut:</p>
+        <p><strong>[Alamat Pengiriman Anda]</strong></p>
+        <p>Silakan hubungi kami jika Anda memiliki pertanyaan atau perubahan pada pesanan Anda.</p>
+        <p>Terima kasih atas kepercayaan Anda pada kami!</p>
+
+        <!-- Informasi Penjualan -->
+        <h2>Detail Penjualan</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Jumlah</th>
+                <th>Harga Satuan</th>
+                <th>Total</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>Muhammad Imran</td>
-                <td>Islam</td>
-                <td>Laki-Laki</td>
-                <td>Not Found</td>
+                <td>Pizza Pepperoni (Large)</td>
+                <td>2</td>
+                <td>Rp 100.000</td>
+                <td>Rp 200.000</td>
             </tr>
-            
+            <!-- Tambahkan baris lain sesuai kebutuhan -->
         </table>
-    </body>
+
+        <!-- Total Penjualan -->
+        <h2>Total Penjualan</h2>
+        <p>Total: <strong>Rp [Total Penjualan]</strong></p>
+    </div>
+</body>
+
 </html>
+
